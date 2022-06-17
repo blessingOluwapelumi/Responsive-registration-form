@@ -38,7 +38,7 @@ body {
 
 
 .left-text {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 .left-text h1 {
@@ -53,6 +53,8 @@ body {
 .left-text p {
     width: 500px;
     color: var(--secondary-color);
+  padding-top:15px;
+  line-height:25px;
 }
 
 .top-right {
@@ -112,7 +114,7 @@ input[type=submit] {
     background-color: var(--primary-color2);
     color: var(--secondary-color);
     font-weight: bold;
-    cursor:pointer;
+  cursor:pointer;
 }
 
 #terms {
@@ -198,3 +200,27 @@ input[type=submit] {
     }
 
 }
+
+
+@media screen and (max-width: 800px) {
+
+  .left-text h1 {
+        width: 220px;
+        font-size: 25px;
+        padding-bottom: 15px;
+
+    }
+  
+    .left-text p {
+        width: 230px;
+
+        font-size: 14px;
+        line-height: 23px;
+
+    }
+
+  
+}
+
+
+     
