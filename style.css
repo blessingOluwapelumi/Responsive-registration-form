@@ -112,6 +112,7 @@ input[type=submit] {
     background-color: var(--primary-color2);
     color: var(--secondary-color);
     font-weight: bold;
+    cursor:pointer;
 }
 
 #terms {
